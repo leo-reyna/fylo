@@ -7,11 +7,13 @@ import os
 os.system("clear")
 os.system("cls")
 
+
 question = "Would you like to add to the Sample text file?"
 message = f"Hello! {question}"
 print(message)
 seleccion = input("y/n ")
 if seleccion == "y":
+    newline = input("Enter the word you would like to add: ")
     #file_object = open('/python-othercode/fylo/sample.txt', 'a') # "a" checks if the file exists
     #agregado = input("What would you like to add? ")
     #file_object.write(agregado)
@@ -19,6 +21,7 @@ if seleccion == "y":
     with open("/python-othercode/fylo/sample.txt", "a") as file:
     # Write the string to the file
         file.write("This is a new line appended to the file.\n")
+        file.write(newline)
 
     with open("/python-othercode/fylo/sample.txt", "a+") as file_object:
         file_object.seek(0)
