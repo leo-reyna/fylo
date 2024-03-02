@@ -1,12 +1,11 @@
 # Name: fylo.py
 # Description: simple python program to open an specific file locally
 # by RL - Jan 2023
-#https://thispointer.com/how-to-append-text-or-lines-to-a-file-in-python/#:~:text=Append%20data%20to%20a%20file%20as%20a%20new,using%20write%20%28%29%20function.%204%20Close%20the%20file
+# https://thispointer.com/how-to-append-text-or-lines-to-a-file-in-python/#:~:text=Append%20data%20to%20a%20file%20as%20a%20new,using%20write%20%28%29%20function.%204%20Close%20the%20file
 
 import os
 os.system("clear")
 os.system("cls")
-
 
 question = "Would you like to add to the Sample text file?"
 message = f"Hello! {question}"
